@@ -29,7 +29,10 @@
   body {
     background: url("http://i36.photobucket.com/albums/e28/folayanc/black%20lady_zpsyoxmujrv.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    background-attachment: fixed;
 }
     
   
