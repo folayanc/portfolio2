@@ -1,0 +1,36 @@
+#nav {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: powderblue;     
+  }
+  li a {  
+    color:white;
+    text-align:center;
+    padding: 15px 17px;
+    display:block;
+    text-decoration: none; 
+    
+  }
+  li a:hover{
+    background-color: grey;
+  }
+  
+  li { 
+      font-size:28px;
+    margin-top:0px; 
+    margin-bottom: 0px;
+        float:right;  
+    font-family:lucida console;
+    text-shadow: 3px 2px black; 
+  }
+
+  body {
+    background: url("http://i36.photobucket.com/albums/e28/folayanc/black%20lady_zpsyoxmujrv.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+    
+  
+  
