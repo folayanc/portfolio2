@@ -3,7 +3,7 @@
     margin:0;
     padding: 0;
     overflow: hidden;
-    background-color: powderblue;     
+    background-color: rgba(255, 0, 0, 0.767);     
   }
   li a {  
     color:white;
@@ -14,7 +14,7 @@
     
   }
   li a:hover{
-    background-color: grey;
+    background-color: black;
   }
   
   li { 
@@ -27,13 +27,37 @@
   }
 
   body {
-    background: url("http://i36.photobucket.com/albums/e28/folayanc/black%20lady_zpsyoxmujrv.jpg");
+    background: url("http://i36.photobucket.com/albums/e28/folayanc/orginal%20lady%20in%20phone_zpsyhxksjoc.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 500px;
     background-attachment: fixed;
 }
-    
-  
+  .page-header{
+    border-style:solid;
+    border-color: red; border-left-color: green;
+    border-radius: 10px;
+    border-width: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: rgb(126, 84, 30)  
+
+  }
+  .gallery-header{
+padding-top: 20px;
+padding-bottom: 85px;
+  }
+  footer{
+    border-style:solid;
+    border-color: red; border-left-color: green; border-top-color:white;
+    border-radius: 10px;
+    border-width: 2px 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: rgb(126, 84, 30)    
+      }
+      .btn-button{
+        background-color: goldenrod;
+      }
   
