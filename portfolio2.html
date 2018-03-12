@@ -13,20 +13,23 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     
-        <div class = "navBar">
+    
+    <div class="container-fluid">
+    <div class = "navBar navbar-inverse navbar-fixed-top">
                 <ul id = "nav">
-                  <li><a href = "#">Contact Me</a></li>
-                  <li><a href = "#">Gallery </a></li>        
-                  <li style="float: left"> <a href = "#"> About Devloper</a> 
+                  <li><a href = "#contactme">Contact Me</a></li>
+                  <li><a href = "#gallery">Gallery </a></li>        
+                  <li style="float: left"> <a href = "#aboutdevloper"> About Devloper</a> 
                   </li>  
                 </ul>
                 </div>
+                </div>
 
                 
-                <div class="container text-center">
-                    <div class="page-header">
+                <div class="container-fluid text-center">
+                    <div class="page-header" div id="aboutdevloper">
                <h1>Folayan "Flo" Pitchford's Digital Portfolio</h1>      
             <p>I am a tech student enrolled at <a href="https://www.shiftup.tech/" class="btn btn-danger" role="button"> SHIFT_UP</a>. As a student of front-end development I am making the internet a more creative and exciting place for my clients. I leverage my background in Education, Mental Health, SUD, Counseling, Leadership and Social Consciousness to problem solve, design and launch the most effecient product possible.</p>
                         </div>
@@ -34,48 +37,57 @@
          
                       
 <div class="container-fluid text-center"> 
-    <div class="gallery-header">   
+    <div class="gallery-header" div id="gallery">    
         <h1 style="border-style:solid; border-color:red;border-right-color:green; border-top-color:white; border-radius: 10px; border-width: 2px 3px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 35px;
         color: rgb(126, 84, 30);"> Gallery </h1><br>
         <div class="row">
           <div class="col-sm-6">
-            <h2 style="color: rgb(126, 84, 30)">Tribute to Malcolm X</h2>
-            <img src="http://i36.photobucket.com/albums/e28/folayanc/malcolm_zpssd9tavfv.png" class="img-thumbnail" alt="malcolmsite">
+              <div class="button1">
+            <h2 style="color: rgb(126, 84, 30)"> <a href="http://codepen.io/folayanc/live/PQeyyG" class="btn btn-warning btn-block btn-large" role="button" alt id="linktomalcolm"> 
+            Tribute to Malcolm X </a> </h2> </button>
+            <img src="http://i36.photobucket.com/albums/e28/folayanc/Portfolio%202%20Project/malcolm_zpssd9tavfv.png" class="img-thumbnail" alt="malcolmsite">
+          </div>
           </div>
           <div class="col-sm-6"> 
-            <h2 style="color: rgb(126, 84, 30)">African American Mental Health</h2>
-            <img src="http://i36.photobucket.com/albums/e28/folayanc/mental%20health%202_zpsawxfgyfk.png" class="img-thumbnail" alt="mentalhealthsite">
+              <div class="button2">
+            <h2 style="color: rgb(126, 84, 30)"> <a href="http://codepen.io/folayanc/live/VQmBoB" class="btn btn-warning btn-block btn-large" role="button"  alt id="linktomh"> African American Mental Health</a> </h2>
+            <img src="http://i36.photobucket.com/albums/e28/folayanc/Portfolio%202%20Project/mental%20health%202_zpsawxfgyfk.png" class="img-thumbnail" alt="mentalhealthsite">
+          </div>
+        </div>
           </div>
           </div>
-          </div>
-      </div><br>
-
-      
+      </div><br>      
 
       <div class="container-fluid text-center">    
             <div class="row">
               <div class="col-sm-4">
-                <h2 style="color: rgb(126, 84, 30)"> Scrolling Digital Portfolio</h2>
-                <img src="http://i36.photobucket.com/albums/e28/folayanc/final%20portfolio_zpsjiico4if.png" class="img-thumbnail" alt="portfolio">
+                  <div class="button3">
+                <h2 style="color: rgb(126, 84, 30)"> <a href="http://codepen.io/folayanc/live/OvVZwN" class="btn btn-warning btn-block btn-large" role="button" alt id="linktoportfolio"> Scrolling Digital Portfolio</a> </h2>
+                <img src="http://i36.photobucket.com/albums/e28/folayanc/Portfolio%202%20Project/final%20portfolio_zpsjiico4if.png" class="img-thumbnail" alt="portfolio">
               </div>
-              <div class="col-sm-4"> 
+              </div>
+              <div class="col-sm-4">
+                  <div class="button4"> 
                 <h2 style="color: rgb(126, 84, 30)"> Under Development </h2>
                 <img src="https://tse4.mm.bing.net/th?id=OIP.IsalWzBNbjzIPLJDPnsD7gHaEX&pid=15.1&P=0&w=302&h=178
                 " class="img-thumbnail" alt="blackrosie">
               </div>
-              <div class="col-sm-4"> 
+              </div>
+              <div class="col-sm-4">
+                  <div class="button5"> 
                 <h2 style="color: rgb(126, 84, 30)"> Under Development </h2>
                 <img src="https://tse4.mm.bing.net/th?id=OIP.IsalWzBNbjzIPLJDPnsD7gHaEX&pid=15.1&P=0&w=302&h=178
                 "class="img-thumbnail" alt="blackrosie">
+              </div>
               </div>
                           </div>
           </div><br><br>
 
           <footer class="container-fluid text-center">
               <div class="row">
-              <div class="footer">
+              <div class="footer" div id="contactme">
                 <h1>Contact Me</h1>
                 <div class="col-sm-2">
                 <div class="phone">
